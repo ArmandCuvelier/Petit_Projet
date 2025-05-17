@@ -3,22 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body {
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-header{
+header {
     color: black;
 }
-header ul{
+header ul {
     list-style: none;
     padding-left: 0;
     text-align: center;
 }
-header li{
+header li {
     display: inline-block;
 }
-body .Main{
+body .Main {
     background-image: url("../images/lune.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,90 +30,80 @@ body .Main{
     align-items: center;
 }
 body .Main .Bloc_main {
-    padding: 30px;
-    border-radius: 10px;
+    padding: 5%;
+    border-radius: 2%;
     color: white;
     background-color: rgba(255,255,255,0.5);
+    width: 60%;
 }
-body .Main .Bloc_main .choix button{
-    padding: 10px 20px;
-    font-size: 16px;
+body .Main .Bloc_main .choix button {
+    padding: 2% 4%;
+    font-size: 120%;
     cursor: pointer;
-    margin: 10px;
+    margin: 2%;
 }
-body .Main .Connexion{
+body .Main .Connexion {
     text-align: center;
 }
-body .Main .Inscription{
+body .Main .Inscription {
     text-align: center;
 }
-body .Main form h1{
+body .Main form h1 {
     padding-top: 4%;
     padding-bottom: 4%;
     color: whitesmoke;
     font-size: 180%;
     text-align: center;
 }
-body .Main .Bloc_main .Connexion div{
+body .Main .Bloc_main .Connexion div,
+body .Main .Bloc_main .Inscription div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 15px;
+    margin-bottom: 5%;
 }
-body .Main .Bloc_main .Inscription div{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 15px;
-}
-body .Main .Bloc_main .Inscription input {
-    width: 100%;
-    padding : 5px;
-    border-radius: 5px;
-    border: none;
-    font-size: 1em;
-    border: 2px solid rgb(57, 54, 54);
-
-}
+body .Main .Bloc_main .Inscription input,
 body .Main .Bloc_main .Connexion input {
     width: 100%;
-    height: 400%;
-    padding : 5px;
-    border-radius: 5px;
+    padding: 2%;
+    border-radius: 2%;
     border: none;
-    font-size: 1em;
-    border: 2px solid rgb(57, 54, 54);
+    font-size: 100%;
+    border: 0.5% solid rgb(57, 54, 54);
+}
+body .Main .Bloc_main .Connexion input {
+    height: 400%;
 }
 body .Main .Bloc_main button {
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 2% 4%;
+    border-radius: 2%;
     color: white;
     background-color: #444;
     border: none;
     cursor: pointer;
-    font-size: 1em;
+    font-size: 100%;
     transition: background-color 0.3s ease;
 }
-body .Main .Bloc_main .choix{
+body .Main .Bloc_main .choix {
     background-color: #444;
-    border-radius: 5px;
+    border-radius: 2%;
     margin-bottom: 6%;
+    padding: 2%;
 }
 body .Main .Bloc_main .choix button {
-    font-size: x-large;
+    font-size: 150%;
 }
-body .Main .Bloc_main button:hover{
+body .Main .Bloc_main button:hover {
     background-color: black;
 }
 
-.caché{
+.caché {
     display: none;
 }
 .activé {
-  color: white;
-  font-weight: bold;
+    color: white;
+    font-weight: bold;
 }
-
 .desactivé {
-  color: #ccc;
+    color: #ccc;
 }
